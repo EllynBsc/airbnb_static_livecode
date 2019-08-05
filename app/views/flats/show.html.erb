@@ -1,0 +1,9 @@
+<h1>Flats#show</h1>
+<p>Find me in app/views/flats/show.html.erb</p>
+
+<h3><%= @flat['id'] %></h3>
+<h4><%= @flat['name'] %></h4>
+<p><%= @flat['price'] %> dollars</p>
+<%= image_tag @flat['imageUrl'], width: 400%>
+
+<%= link_to "back to homepage", root_path %>
